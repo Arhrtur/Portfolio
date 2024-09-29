@@ -1,15 +1,19 @@
-import Home from '../../sections/Home'
-import About from '../../sections/About'
-import Projects from '../../sections/Projects'
+import React, { Suspense, lazy } from 'react';
 
-const index = () => {
+import Home from '../../sections/Home'
+const About = lazy(() => import('../../sections/About'));
+const Projects = lazy(() => import('../../sections/Projects'));
+
+const Index = () => {
   return (
     <div>
       <Home />
-      <About />
-      <Projects />
+      <Suspense>
+        <About />
+        <Projects />
+      </Suspense>
     </div>
-  )
-}
+  );
+};
 
-export default index
+export default Index;
