@@ -53,21 +53,21 @@ const index = () => {
                             </div>
                             <div className='button-project-section'>
                                 <div className="button-project github-btn">
-                                    <a href={project.github} target='_blank' rel="noopener noreferrer" alt="gitHub">
+                                    <a href={project.github} target='_blank' rel="noopener noreferrer" aria-label="gitHub">
                                         <FaGithubAlt />
                                         <p>Github</p>
                                     </a>
                                 </div>
                                 {project.deploy ? (
                                     <div className={project.classButton}>
-                                        <a href={project.deploy} target='_blank' rel="noopener noreferrer" alt="Deploy">
+                                        <a href={project.deploy} target='_blank' rel="noopener noreferrer" aria-label="Deploy">
                                             <IoMdEye />
                                             <p>Deploy</p>
                                         </a>
                                     </div>
                                 ) : (
                                     <div className={project.classButtonCant}>
-                                        <a href={project.deploy} target='_blank' rel="noopener noreferrer" alt="No Deploy">
+                                        <a href={project.deploy} target='_blank' rel="noopener noreferrer" aria-label="No Deploy">
                                             <IoMdEyeOff />
                                             <p>Deploy</p>
                                         </a>
@@ -83,7 +83,7 @@ const index = () => {
             </section>
             
             <Link to='projects'>
-                <button className="routes-button button shadow">
+                <button className="routes-button button shadow" aria-label="See more projects">
                    <i alt='See more projects'><BiPlus /></i> SEE MORE PROJECTS 
                 </button>
             </Link>

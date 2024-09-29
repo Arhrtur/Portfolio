@@ -51,21 +51,21 @@ const index = () => {
                             </div>
                             <div className='button-project-section'>
                                 <div className="button-project github-btn">
-                                    <a href={project.github} target='_blank' rel="noopener noreferrer" alt="GitHub">
+                                    <a href={project.github} target='_blank' rel="noopener noreferrer" aria-label="GitHub">
                                         <FaGithubAlt />
                                         <p>Github</p>
                                     </a>
                                 </div>
                                 {project.deploy ? (
                                     <div className={project.classButton}>
-                                        <a href={project.deploy} target='_blank' rel="noopener noreferrer" alt="Deploy">
+                                        <a href={project.deploy} target='_blank' rel="noopener noreferrer" aria-label="Deploy">
                                             <IoMdEye />
                                             <p>Deploy</p>
                                         </a>
                                     </div>
                                 ) : (
                                     <div className={project.classButtonCant}>
-                                        <a href={project.deploy} target='_blank' rel="noopener noreferrer" alt="No Deploy">
+                                        <a href={project.deploy} target='_blank' rel="noopener noreferrer" aria-label="No Deploy">
                                             <IoMdEyeOff />
                                             <p>Deploy</p>
                                         </a>
@@ -81,7 +81,7 @@ const index = () => {
             </section>
 
             <Link to='/'>
-                <button className='back-to-home routes-button button'>
+                <button className='back-to-home routes-button button' aria-label="Home button">
                     <i className="home-icon"><HiHome /></i>
                 </button>
             </Link>

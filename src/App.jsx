@@ -5,6 +5,7 @@ import Navbar from './components/Header';
 const Footer = lazy(() => import('./components/Footer'));
 
 function App() {
+  
   const { pathname } = useLocation();
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -14,7 +15,7 @@ function App() {
     <>
       <Navbar />
       <Outlet />
-      <Suspense fallback={<div>Loading Footer...</div>}>
+      <Suspense>
         <Footer id='Footer' />
       </Suspense>
     </>

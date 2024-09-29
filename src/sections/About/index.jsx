@@ -1,9 +1,7 @@
 import './About.css'
-
 import React, { useEffect } from "react";
 import ScrollReveal from "scrollreveal";
 import { Helmet } from 'react-helmet';
-
 import StacksColumn from '../../components/StacksColumn'
 
 const index = () => {
@@ -12,7 +10,7 @@ const index = () => {
       const revealSettings = {
         distance: '150px',
         duration: 1000,
-        reset: true,
+        reset: false,
       };      
       
       if (window.innerWidth > 768) {
