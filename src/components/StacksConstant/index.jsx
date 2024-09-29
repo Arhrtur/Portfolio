@@ -1,5 +1,5 @@
 import './StacksConstant.css'
-import { STACKS } from '../../constants/Stacks';
+import { STACKS } from '../../constants/stacks';
 import React, { useEffect } from "react";
 import ScrollReveal from "scrollreveal";
 
