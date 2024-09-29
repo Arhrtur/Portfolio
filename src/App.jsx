@@ -1,8 +1,8 @@
+import { useEffect, lazy, Suspense } from 'react';
 import { Outlet, useLocation } from 'react-router-dom';
-import { useEffect } from 'react';
 
 import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+const Footer = lazy(() => import('./components/Footer'));
 
 function App() {
   const { pathname } = useLocation();
@@ -14,7 +14,9 @@ function App() {
     <>
       <Navbar />
       <Outlet />
-      <Footer id='Footer' />
+      <Suspense fallback={<div>Loading Footer...</div>}>
+        <Footer id='Footer' />
+      </Suspense>
     </>
   );
 }
