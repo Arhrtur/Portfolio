@@ -1,3 +1,4 @@
+import './Footer.css';
 import React, { useEffect } from "react";
 import ScrollReveal from "scrollreveal";
 
@@ -5,8 +6,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import { AiFillGithub } from "react-icons/ai"; 
 import { MdEmail } from "react-icons/md"; 
 import { AiFillLinkedin } from "react-icons/ai"; 
- 
-import './index.css'
+
 
 const index = () => {
 

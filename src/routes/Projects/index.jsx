@@ -1,7 +1,8 @@
+import '../../CSS/Projects.css';
 import React, { useEffect } from "react";
 import ScrollReveal from "scrollreveal";
 import { Helmet } from 'react-helmet';
-import { PROJECTS } from '../../constants/projects';
+import { PROJECTS } from '../../constants/Projects';
 import { HiHome } from "react-icons/hi"; 
 import { Link } from 'react-router-dom';
 import { FaGithubAlt } from "react-icons/fa"; 

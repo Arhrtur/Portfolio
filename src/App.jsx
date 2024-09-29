@@ -1,7 +1,7 @@
 import { useEffect, lazy, Suspense } from 'react';
 import { Outlet, useLocation } from 'react-router-dom';
 
-import Navbar from './components/Navbar';
+import Navbar from './components/Header';
 const Footer = lazy(() => import('./components/Footer'));
 
 function App() {

@@ -1,4 +1,4 @@
-import './index.css'
+import './About.css'
 
 import React, { useEffect } from "react";
 import ScrollReveal from "scrollreveal";

@@ -1,4 +1,4 @@
-import './index.css'
+import './Error.css'
 import { Helmet } from 'react-helmet';
 
 const index = () => {

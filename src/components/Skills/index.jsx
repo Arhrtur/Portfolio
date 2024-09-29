@@ -1,4 +1,4 @@
-import './index.css';
+import './Skills.css';
 import React, { useEffect } from "react";
 import { RiShareBoxLine } from "react-icons/ri";
 import { SiReact, SiRedux, SiNodedotjs } from "react-icons/si";

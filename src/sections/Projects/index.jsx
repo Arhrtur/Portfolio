@@ -1,8 +1,9 @@
+import '../../CSS/Projects.css';
 import React, { useEffect } from "react";
 import { Link } from 'react-router-dom';
 import ScrollReveal from "scrollreveal";
 import { Helmet } from 'react-helmet';
-import { PROJECTS } from '../../constants/projects';
+import { PROJECTS } from '../../constants/Projects';
 import { BiPlus } from "react-icons/bi"; 
 import { FaGithubAlt } from "react-icons/fa"; 
 import { IoMdEyeOff, IoMdEye } from "react-icons/io"; 

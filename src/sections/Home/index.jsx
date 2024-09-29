@@ -1,4 +1,4 @@
-import './index.css'
+import './Home.css'
 import { Helmet } from 'react-helmet';
 
 import AnimatedText from '../../components/Anim'
