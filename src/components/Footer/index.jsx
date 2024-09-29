@@ -24,21 +24,21 @@ const index = () => {
       <div className="Footer">
         <div className="footer-center">
           <div className='footer-bar shadow'>
-            <a href="https://www.linkedin.com/in/devarthursant" target="_blank" alt="Linkedin">
-              <AiFillLinkedin className='footer-bar-link'/>
+            <a href="https://www.linkedin.com/in/devarthursant" target="_blank" aria-label="Linkedin">
+              <AiFillLinkedin className='footer-bar-link' alt="Linkedin"/>
             </a>
-            <a href="https://github.com/ArthurSantDev" target="_blank" alt="GitHub">
-              <AiFillGithub className='footer-bar-link'/>
+            <a href="https://github.com/ArthurSantDev" target="_blank" aria-label="GitHub">
+              <AiFillGithub className='footer-bar-link' alt="GitHub"/>
             </a>
-            <a href="https://wa.me/5524988638508" target="_blank" alt="WhatsApp">
-              <FaWhatsapp className='footer-bar-link'/>
+            <a href="https://wa.me/5524988638508" target="_blank" aria-label="WhatsApp">
+              <FaWhatsapp className='footer-bar-link' alt="WhatsApp"/>
             </a>
-            <a href="mailto:DevArthurSant@gmail.com" target="_blank" alt="E-mail">
-              <MdEmail className='footer-bar-link'/>
+            <a href="mailto:DevArthurSant@gmail.com" target="_blank" aria-label="E-mail">
+              <MdEmail className='footer-bar-link' alt="E-mail"/>
             </a>
           </div>
           <p class="footer-copy">
-            <a href="https://github.com/ArthurSantDev" target="_blank" class="footer__copy-link" alt="Copy Right">
+            <a href="https://github.com/ArthurSantDev" target="_blank" class="footer__copy-link" aria-label="Copy Right">
               &#169;2024 <i>Arthur Sant</i>. All right reserved.
             </a>
           </p>

@@ -82,9 +82,9 @@ const index = () => {
                 ))}
             </section>
             
-            <Link to='projects'>
+            <Link to='projects' aria-label="All Projects">
                 <button className="routes-button button shadow" aria-label="See more projects">
-                   <i alt='See more projects'><BiPlus /></i> SEE MORE PROJECTS 
+                   <i aria-hidden="true"><BiPlus/></i> SEE MORE PROJECTS 
                 </button>
             </Link>
         </div>
