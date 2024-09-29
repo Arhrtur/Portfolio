@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 import { FaGithubAlt } from "react-icons/fa"; 
 import { IoMdEyeOff, IoMdEye } from "react-icons/io"; 
 
-const Projects = () => {
+const index = () => {
     useEffect(() => {
         const revealSettings = {
             distance: '300px',
@@ -89,4 +89,4 @@ const Projects = () => {
     );
 }
 
-export default Projects;
+export default index;
