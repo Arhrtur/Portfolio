@@ -2,7 +2,7 @@ import '../../CSS/Projects.css';
 import React, { useEffect } from "react";
 import ScrollReveal from "scrollreveal";
 import { Helmet } from 'react-helmet';
-import { PROJECTS } from '../../constants/Projects';
+import { PROJECTS } from '../../constants/projects';
 import { HiHome } from "react-icons/hi"; 
 import { Link } from 'react-router-dom';
 import { FaGithubAlt } from "react-icons/fa"; 
@@ -15,11 +15,12 @@ const index = () => {
             duration: 1400,
             reset: true,
             origin: 'left',
-            // origin: window.innerWidth > 800 ? 'left' : 'left',
         };
-    
+
         ScrollReveal().reveal('.project, .reverse', revealSettings);
     }, []);
+
+    const filteredProjects = PROJECTS.filter(project => project.id);
 
     return (
         <div id='Projects' className='container'>
@@ -32,7 +33,7 @@ const index = () => {
             <section className="projects">
                 <h1 className='TitleCenter'>All My Projects</h1>
 
-                {PROJECTS.map((project) => (
+                {filteredProjects.map((project) => (
                     <div key={project.id} className={project.class}>
                         <div className="project-about">
                             <div className={project.classMark}>
