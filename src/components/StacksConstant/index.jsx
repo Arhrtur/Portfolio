@@ -20,7 +20,7 @@ const index = () => {
 
   return (
    <div class="const-stacks">
-      <div className="const-text-one">
+      <div className="const-text-one" aria-label='Stacks const'>
         <p class="p-pink"> const </p>
         <p class="p-green"> Staks </p>
         <p class="p-pink"> = </p>

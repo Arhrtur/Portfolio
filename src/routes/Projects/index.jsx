@@ -34,7 +34,7 @@ const index = () => {
                 <h1 className='TitleCenter'>All My Projects</h1>
 
                 {filteredProjects.map((project) => (
-                    <div key={project.id} className={project.class}>
+                    <div key={project.id} className={project.class} aria-label={project.title}>
                         <div className="project-about">
                             <div className={project.classMark}>
                                 <img src={project.markfront} alt={project.none}/>

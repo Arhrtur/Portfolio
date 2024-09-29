@@ -5,7 +5,6 @@ import { SiReact, SiRedux, SiNodedotjs } from "react-icons/si";
 import { FaPython } from "react-icons/fa";
 import ScrollReveal from "scrollreveal";
 
-
 const Index = () => {
   useEffect(() => {
     const revealSettings = {
@@ -33,7 +32,7 @@ const Index = () => {
       <div className="skills_container">
         <div className='skills'>
           <div className='skill shadow'>
-            <SiReact className="one" />
+            <SiReact className="one" alt="Framworks"/>
             <h2 className="one">Framworks</h2>
             <div className="skill-text">
               <p>Utilizo de Frameworks para um projeto mais ágil, eficaz e de simples manutenção.</p>
@@ -44,7 +43,7 @@ const Index = () => {
           </div>
 
           <div className='skill shadow'>
-            <SiRedux className="two" />
+            <SiRedux className="two" alt="Libraries"/>
             <h2 className="two">Libraries</h2>
             <div className="skill-text">
               <p>Faço uso de bibliotecas como subprogramas para evoluir o desenvolvimento.</p>
@@ -55,7 +54,7 @@ const Index = () => {
           </div>
 
           <div className='skill shadow'>
-            <FaPython className="three" />
+            <FaPython className="three" alt=""/>
             <h2 className="three">Data Science</h2>
             <div className="skill-text">
               <p>Uso do estudo dos dados para formular insights que sejam relevantes e úteis.</p>
@@ -66,7 +65,7 @@ const Index = () => {
           </div>
 
           <div className='skill shadow'>
-            <SiNodedotjs className="four" />
+            <SiNodedotjs className="four" alt="API's"/>
             <h2 className="four">API's</h2>
             <div className="skill-text">
               <p>Utilizo API's, para extrair e consumir dados de diferentes tipos de sistemas.</p>

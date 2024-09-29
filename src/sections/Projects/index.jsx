@@ -36,7 +36,7 @@ const index = () => {
                 <h1 className='Title'>Best Projects</h1> 
                 
                 {orderedProjects.map((project) => (
-                    <div key={project.id} className={project.class}>
+                    <div key={project.id} className={project.class} aria-label={project.title}>
                         <div className="project-about">
                             <div className={project.classMark}>
                                 <img src={project.markfront} alt={project.none} />

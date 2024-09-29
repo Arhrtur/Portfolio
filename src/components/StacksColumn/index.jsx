@@ -76,7 +76,7 @@ const StacksColumn = () => {
           </h2>
           <div className='stacks-section'>
             {stackList.map(({ name, icon, small }) => (
-              <StackBox key={name} name={name} icon={icon} small={small} />
+              <StackBox key={name} name={name} icon={icon} small={small} alt={name}/>
             ))}
           </div>
         </div>
