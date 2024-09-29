@@ -13,13 +13,12 @@ const Index = () => {
       reset: true,
       interval: 200
     };
-    if (window.innerWidth > 768) { // Ajuste o tamanho conforme necessário
+    if (window.innerWidth > 800) {
       ScrollReveal().reveal('.skill', {
         ...revealSettings,
         origin: 'right'
       });
     } else {
-      // Para telas menores, sem animação ou com origem diferente
       ScrollReveal().reveal('.skill', {
         ...revealSettings,
         origin: 'left'
