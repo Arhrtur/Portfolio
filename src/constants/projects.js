@@ -137,7 +137,7 @@ export const PROJECTS = [
         stack: [
             "python", "fast-api", "postman"
         ],
-        github: "https://github.com/ArthurSantDev/Nike",
+        github: "https://github.com/ArthurSantDev/API-RestFull",
         deploy: "",
         image: "/assets/projects/fastapi.svg",
         markfront: "",
