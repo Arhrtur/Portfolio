@@ -133,7 +133,7 @@ export const PROJECTS = [
     {
         id: 8,
         title: "API RestFull",
-        description: "E-commerce com estética e produtos da Nike que possui sua base em Vite JS, React Js e Tailwind. Responsivo para dispositivos, com tema Dark e 'carrinho' que é atualizado de acordo com quantidade e tamanho.",
+        description: "API RestFull utilizando Python como base, possuindo as funções GET, POST, PUT, UPDATE e DELETE. Com implementação de pesquisa por categorias como nos exemplos do arquivo Test_Server.py no repositório.",
         stack: [
             "python", "fast-api", "postman"
         ],
