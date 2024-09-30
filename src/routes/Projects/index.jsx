@@ -33,12 +33,16 @@ const index = () => {
             <section className="projects">
                 <h1 className='TitleCenter'>All My Projects</h1>
 
-                {filteredProjects.map((project) => (
-                    <div key={project.id} className={project.class} aria-label={project.title}>
+                {filteredProjects.map((project, index) => (
+                    <div
+                        key={project.id}
+                        className={index % 2 === 0 ? project.classReverse : `${project.class}`}
+                        aria-label={project.title}
+                    >
                         <div className="project-about">
                             <div className={project.classMark}>
-                                <img src={project.markfront} alt={project.none}/>
-                                <img src={project.markback} alt={project.none}/>
+                                <img src={project.markfront} alt={project.none} />
+                                <img src={project.markback} alt={project.none} />
                             </div>
                             <div>
                                 <h2 className="att">{project.title}</h2>

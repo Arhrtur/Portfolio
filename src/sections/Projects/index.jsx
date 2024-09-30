@@ -20,7 +20,7 @@ const index = () => {
     }, []);
 
     // Filtrando e ordenando os projetos
-    const selectedIDs = [6, 5, 7];
+    const selectedIDs = [7, 6, 8];
     const filteredProjects = PROJECTS.filter(project => selectedIDs.includes(project.id));
     const orderedProjects = selectedIDs.map(id => filteredProjects.find(project => project.id === id));
 
@@ -35,8 +35,12 @@ const index = () => {
             <section className="projects">
                 <h1 className='Title'>Best Projects</h1> 
                 
-                {orderedProjects.map((project) => (
-                    <div key={project.id} className={project.class} aria-label={project.title}>
+                {orderedProjects.map((project, index) => (
+                    <div
+                        key={project.id}
+                        className={index % 2 === 0 ? project.classReverse : `${project.class}`}
+                        aria-label={project.title}
+                    >
                         <div className="project-about">
                             <div className={project.classMark}>
                                 <img src={project.markfront} alt={project.none} />
