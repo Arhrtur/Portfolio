@@ -20,12 +20,12 @@ export const STACKS = [
    { id: 18, src: "/assets/stacks/tailwind.svg", alt: "Tailwind CSS logo" },
    { id: 19, src: "/assets/stacks/sass.svg", alt: "Sass logo" },
    { id: 20, src: "/assets/stacks/bootstrap.svg", alt: "Bootstrap logo" },
-
-   { id: 21, src: "/assets/stacks/font-awesome.svg", alt: "Font Awesome logo" },
-   { id: 22, src: "/assets/stacks/python.svg", alt: "Python logo" },
-   { id: 23, src: "/assets/stacks/django.svg", alt: "Django logo" },
-   { id: 24, src: "/assets/stacks/pandas.svg", alt: "Pandas logo" },
-   { id: 25, src: "/assets/stacks/fast-api.svg", alt: "FastAPI logo" },
+   
+   { id: 21, src: "/assets/stacks/python.svg", alt: "Python logo" },
+   { id: 22, src: "/assets/stacks/django.svg", alt: "Django logo" },
+   { id: 23, src: "/assets/stacks/pandas.svg", alt: "Pandas logo" },
+   { id: 24, src: "/assets/stacks/fast-api.svg", alt: "FastAPI logo" },
+   { id: 25, src: "/assets/stacks/postman.svg", alt: "Postman" },
    { id: 26, src: "/assets/stacks/r.svg", alt: "R programming language logo" },
    { id: 27, src: "/assets/stacks/power-bi.svg", alt: "Power BI logo" },
    { id: 28, src: "/assets/stacks/java.svg", alt: "Java logo" },
