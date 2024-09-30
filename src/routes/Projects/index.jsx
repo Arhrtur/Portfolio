@@ -41,8 +41,8 @@ const index = () => {
                     >
                         <div className="project-about">
                             <div className={project.classMark}>
-                                <img src={project.markfront} alt={project.none} />
-                                <img src={project.markback} alt={project.none} />
+                                {project.markfront && <img src={project.markfront} alt={project.none} />}
+                                {project.markback && <img src={project.markback} alt={project.none} />}
                             </div>
                             <div>
                                 <h2 className="att">{project.title}</h2>
