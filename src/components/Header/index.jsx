@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { Link as ScrollLink } from 'react-scroll';
 import React, { useState, useRef, useEffect } from 'react';
 
-const logo = "<ArthurD.Sant />";
+const logo = "<ArthurSant />";
 
 function Index() {
   const [isOpen, setIsOpen] = useState(false);
